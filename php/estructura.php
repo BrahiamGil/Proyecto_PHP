@@ -47,13 +47,13 @@ do{
 $array = [1,2,3,4,5,6,7,8];
 foreach( $array as $value){
     echo $value;
-}
+};
 
 #Funciones
 Codeium: Refactor | Explain | X
-function sumar($a, $b){
+function  sumar ($a, $b){
     return $a + $b;
-}
+};
 echo sumar(10, 20);
 
 ?>
